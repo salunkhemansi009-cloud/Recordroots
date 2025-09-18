@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Student</title>
+</head>
+<body>
+  <h1>Add Student Details</h1>
+
+  <!-- Navigation links -->
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="add-student.html">Add Student</a> |
+    <a href="view-students.html">View Students</a> |
+    <a href="about.html">About NGO</a>
+  </nav>
+
+  <h2>Student Information Form</h2>
+  <form>
+    <!-- Name -->
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter student name"><br><br>
+
+    <!-- Age -->
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" name="age" placeholder="Enter age"><br><br>
+
+    <!-- Address -->
+    <label for="address">Address:</label><br>
+    <textarea id="address" name="address" rows="2" placeholder="Enter address"></textarea><br><br>
+
+    <!-- Background Info -->
+    <label for="background">Background Info:</label><br>
+    <textarea id="background" name="background" rows="2" placeholder="Family background, history"></textarea><br><br>
+
+    <!-- Medical Records -->
+    <label for="medical">Medical Records:</label><br>
+    <textarea id="medical" name="medical" rows="2" placeholder="Enter medical details"></textarea><br><br>
+
+    <!-- Submit Button -->
+    <button type="submit">Save Student</button>
+  </form>
+
+  <p style="color:orange;">
+    ⚠️ Currently this form won’t save data permanently (needs backend).
+  </p>
+</body>
+</html>
